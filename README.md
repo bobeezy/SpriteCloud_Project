@@ -16,6 +16,7 @@ Flexibility from Ant and convention over configuration, dependency management an
 This Automation framework allows you to run tests on almost any browser and OS. 
 
 It also provides the ability to run locally on Windows, Mac, Ubuntu with minimal changes to any config files.
+For the purpose of this project I will mainly used it for API test using Rest Assured.
 
 ## TOOLS USED ##
 
