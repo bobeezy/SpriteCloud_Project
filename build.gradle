@@ -71,6 +71,7 @@ sourceSets {
 
 configurations {
     agent
+    testCompile
 }
 
 configurations.all {
