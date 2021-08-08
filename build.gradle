@@ -98,7 +98,7 @@ dependencies {
 //    compile "io.qameta.allure:allure-testng:2.0-BETA10"
     implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.14.0'
     implementation group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.14.0'
-    compile group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.6.0'
+    //compile group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.6.0'
 
     //Allure utils
     compile 'io.rest-assured:rest-assured:3.0.2'
@@ -325,7 +325,7 @@ task run_test(type: Test) {
         suiteName 'SpriteCloud Assessment'
         filter {
             includeTestsMatching "PetTest"
-            includeTestsMatching "StoreTest"
+            //includeTestsMatching "StoreTest"
         }
     }
 }
